@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".AuthenticationActivity" />
-        <activity android:name=".KoreaActivity"></activity>
+        <activity
+            android:name=".KoreaActivity"
+            android:label="@string/title_activity_korea"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
