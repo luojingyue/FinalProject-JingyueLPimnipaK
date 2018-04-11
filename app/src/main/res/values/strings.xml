@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">PopFact</string>
+    <string name="welcome">Welcome!</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="sign_up_text">First time? Sign up!</string>
@@ -48,6 +49,7 @@
     <string name="LQ5A2">Consuming alcohol</string>
 
     <string name="app_name_TH">ป๊อปแฟค</string>
+    <string name="welcome_TH">ยินดีต้อนรับ!</string>
     <string name="username_TH">ยูสเซอร์เนม</string>
     <string name="password_TH">พาสเวิร์ด</string>
     <string name="sign_up_TH">สมัครเข้าใช้งาน</string>
@@ -60,25 +62,28 @@
     <string name="KQ1A2_TH">3 ปี</string>
     <string name="KQ1_correct_TH">ถึงแม้ว่าวง BTS จะออกผลงานมาให้เราเห็นกันตั้งแต่ปี 2013 เป็นเวลา 5 ปีแล้ว แต่ในความเป็นจริง พวกเขาร่วมฝึกกันมาก่อนออกผลงานมา 4 ปีแล้ว วงอื่นในวงการบันเทิงเกาหลีก็มีเวลาฝึกฝนเป็นเวลานานเช่นเดียวกัน บางวงใช้เวลาฝึกนานร่วมทศวรรต!</string>
     <string name="KQ2_TH">วง  BTS มีสมาชิกทั้งหมดกี่คน</string>
-    <string name="KQ2A1_TH">ึ7 คน</string>
+    <string name="KQ2A1_TH">7 คน</string>
     <string name="KQ2A2_TH">9 คน</string>
-
+    <string name="KQ2_correct_TH">วงดนตรีเกาหลีแทบจะไม่เคยมีศิลปินเดี่ยว หรือคู่เลย ส่วนใหญ่จะเป็นวงใหญ่ หญิงล้วนหรือชายล้วนเท่านั้น ที่จริงแล้ววง 7 คนไม่ถือว่าใหญ่เลย วง Super Junior มีสมาชิกถึง 13 คน และวง Apeace มีสมาชิก 21 คน</string>
     <string name="KQ3_TH">สีประจำแฟนคลับของวง BTS คือสีอะไร</string>
     <string name="KQ3A1_TH">สีเงิน</string>
     <string name="KQ3A2_TH">สีฟ้า</string>
-
+    <string name="KQ3_correct_TH">แฟนคลับของวงดนตรีเกาหลีทุกวงมีชื่อและสีเป็นของตนเอง แฟนคลับของวง BTS ชื่อ อาร์มี่ หรือ A.R.M.Y (Adorable Representative MC for Youth) ถ้าอยากรู้อีกละก็ แฟนคลับวง EXO ชื่อ EXO-L สีประจำคือคอสมิคลาเต้ ส่วนแฟนคลับวง 2NE1 ชื่อแบล็คแจ๊ค ใช้สีชมพูแจ๊ดเป็นสีประจำกลุ่ม</string>
     <string name="KQ4_TH">หัวหน้าวง BTS คือใคร</string>
     <string name="KQ4A1_TH">แรปมอนสเตอร์</string>
     <string name="KQ4A2_TH">ซูก้า</string>
-
+    <string name="KQ4_correct_TH">วงเคป๊อปทุกวงมีหัวหน้าวง ซึ่งโดยทั่วไปแล้วมักจะเป็นสมาชิกที่อายุมากที่สุดของวง หน้าที่อื่นๆของสมาชิก ได้แก่ เสียงหลัก เต้นหลัก หน้าตาดี นักพูด แฟนคลับเยอะที่สุด และเด็กน้อย</string>
     <string name="KQ5_TH">วง BTS อยู่ภายใต้สังกัดของค่ายใด</string>
     <string name="KQ5A1_TH">เจวายพี</string>
     <string name="KQ5A2_TH">บิ๊กฮิต</string>
+    <string name="KQ5_correct_TH">อย่าไปสนใจชื่อ! ถึงแม้ชื่อค่ายบิ๊กฮิตจะแปลว่าใหญ่ แต่ที่จริงแล้ว ในวงการบันเทิงเกาหลีค่ายใหญ่มีแค่สามค่าย ได้แก่ เจวายพี เอสเอ็มเอนเตอร์เทนเมนต์ และวายจี บิ๊กฮิตเป็นค่ายเล็กเท่านั้น</string>
     <string name="title_activity_korea">KoreaActivity</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_lebanon">LebanonActivity</string>
+    <string name="title_activity_pr">PRActivity</string>
 
 </resources>

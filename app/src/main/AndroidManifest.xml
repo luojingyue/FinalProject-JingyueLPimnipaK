@@ -20,6 +20,14 @@
         <activity
             android:name=".KoreaActivity"
             android:label="@string/title_activity_korea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LebanonActivity"
+            android:label="@string/title_activity_lebanon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PRActivity"
+            android:label="@string/title_activity_pr"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
