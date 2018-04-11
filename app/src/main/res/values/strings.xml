@@ -77,6 +77,7 @@
     <string name="KQ5A1_TH">เจวายพี</string>
     <string name="KQ5A2_TH">บิ๊กฮิต</string>
     <string name="KQ5_correct_TH">อย่าไปสนใจชื่อ! ถึงแม้ชื่อค่ายบิ๊กฮิตจะแปลว่าใหญ่ แต่ที่จริงแล้ว ในวงการบันเทิงเกาหลีค่ายใหญ่มีแค่สามค่าย ได้แก่ เจวายพี เอสเอ็มเอนเตอร์เทนเมนต์ และวายจี บิ๊กฮิตเป็นค่ายเล็กเท่านั้น</string>
+
     <string name="title_activity_korea">KoreaActivity</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>

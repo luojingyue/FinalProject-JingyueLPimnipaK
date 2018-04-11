@@ -52,6 +52,7 @@ public class KoreaActivity extends AppCompatActivity {
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(mViewPager);
 
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
@@ -90,40 +91,6 @@ public class KoreaActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    public static class PlaceholderFragment extends Fragment {
-        /**
-         * The fragment argument representing the section number for this
-         * fragment.
-         */
-        private static final String ARG_SECTION_NUMBER = "section_number";
-
-        public PlaceholderFragment() {
-        }
-
-        /**
-         * Returns a new instance of this fragment for the given section
-         * number.
-         */
-        public static PlaceholderFragment newInstance(int sectionNumber) {
-            PlaceholderFragment fragment = new PlaceholderFragment();
-            Bundle args = new Bundle();
-            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
-            fragment.setArguments(args);
-            return fragment;
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_korea, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
-            return rootView;
-        }
-    }
 
     /**
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
@@ -137,9 +104,19 @@ public class KoreaActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+            switch (position){
+                case 0:
+                    Q1_Korea kq1 = new Q1_Korea();
+                    return kq1;
+                case 1:
+                    Q2_Korea kq2 = new Q2_Korea();
+                    return kq2;
+                case 2:
+                    Q3_Korea kq3 = new Q3_Korea();
+                    return kq3;
+                default:
+                    return null;
+            }
         }
 
         @Override
@@ -147,5 +124,19 @@ public class KoreaActivity extends AppCompatActivity {
             // Show 3 total pages.
             return 3;
         }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position) {
+                case 0:
+                    return "Q1";
+                case 1:
+                    return "Q2";
+                case 2:
+                    return "Q3";
+            }
+            return null;
+        }
+
     }
 }
