@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.example.awos.finalproject_jingyuepim.MainActivity">
 
     <TextView
@@ -24,15 +23,16 @@
         android:src="@drawable/map" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/korea_pin"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
-        android:layout_marginTop="166dp"
-        android:src="@drawable/pin" />
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/pin"
+        android:onClick="openKoreaActivity"/>
 
 </RelativeLayout>

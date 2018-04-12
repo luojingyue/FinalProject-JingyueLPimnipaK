@@ -86,5 +86,7 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_lebanon">LebanonActivity</string>
     <string name="title_activity_pr">PRActivity</string>
+    <string name="title_activity_korea_information">KoreaInformation</string>
+    <string name="title_activity_korean_info">KoreanInfo</string>
 
 </resources>
