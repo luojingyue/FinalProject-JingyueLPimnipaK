@@ -8,4 +8,6 @@
     tools:context="com.example.awos.finalproject_jingyuepim.KoreanInfo"
     tools:showIn="@layout/activity_korean_info">
 
+
+
 </android.support.constraint.ConstraintLayout>
