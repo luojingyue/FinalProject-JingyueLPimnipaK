@@ -16,24 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".MainActivity" />
         <activity
             android:name=".KoreaActivity"
             android:label="@string/title_activity_korea"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".LebanonActivity"
             android:label="@string/title_activity_lebanon"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".PRActivity"
             android:label="@string/title_activity_pr"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
+
         <activity
             android:name=".KoreanInfo"
             android:label="@string/title_activity_korean_info"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".KQ1AnswerActivity"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".KoreaActivity"></activity>
+
     </application>
 
 </manifest>
