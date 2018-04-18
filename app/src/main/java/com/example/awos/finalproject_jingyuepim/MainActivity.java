@@ -17,4 +17,14 @@ public class MainActivity extends AppCompatActivity {
         Intent koreanIntent=new Intent(this,KoreaActivity.class);
         startActivity(koreanIntent);
     }
+
+    public void openPRActivity(View view) {
+        Intent prIntent=new Intent(this,PRActivity.class);
+        startActivity(prIntent);
+    }
+
+    public void openLebanonActivity(View view) {
+        Intent lebaIntent=new Intent(this,LebanonActivity.class);
+        startActivity(lebaIntent);
+    }
 }
