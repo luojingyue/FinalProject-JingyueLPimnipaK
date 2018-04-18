@@ -28,7 +28,7 @@ public class Q1_Korea extends Fragment {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast toast = Toast.makeText(getContext(), "Try one more time!",
+                Toast toast = Toast.makeText(getContext(), "Try one more time!!!",
                         Toast.LENGTH_SHORT);
                 toast.show();
             }
