@@ -31,7 +31,8 @@
             android:layout_marginRight="35dp"
             android:text="@string/KQ1A1"
             android:textColor="@android:color/white"
-            android:background = "@drawable/roundedbutton"/>
+            android:background = "@drawable/roundedbutton"
+            />
 
         <Button
             android:id="@+id/answer2"
