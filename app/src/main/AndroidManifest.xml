@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"
+            android:parentActivityName=".AuthenticationActivity"/>
         <activity
             android:name=".KoreaActivity"
             android:label="@string/title_activity_korea"
@@ -31,11 +32,6 @@
             android:name=".PRActivity"
             android:label="@string/title_activity_pr"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".KoreanInfo"
-            android:label="@string/title_activity_korean_info"
-            android:parentActivityName=".KoreaActivity"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
