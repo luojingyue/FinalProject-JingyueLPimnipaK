@@ -16,6 +16,13 @@ public class Q1_Korea extends Fragment {
         return rootView;
     }
 
+    public void openKoreanInfoActivity(View view){
+        Intent info=new Intent(getContext(),KQ1AnswerActivity.class);
+        startActivity(info);
+
+
+    }
+
 
 }
 

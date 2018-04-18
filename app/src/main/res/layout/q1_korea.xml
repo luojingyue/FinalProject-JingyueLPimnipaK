@@ -28,14 +28,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="35dp"
-            android:text="@string/KQ1A1" />
+            android:text="@string/KQ1A1"
+            android:onClick="openKoreanInfoActivity"/>
 
         <Button
             android:id="@+id/answer2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
-            android:text="@string/KQ1A2" />
+            android:text="@string/KQ1A2"
+            android:onClick="wrongAnswer"
+            />
 
     </LinearLayout>
 
