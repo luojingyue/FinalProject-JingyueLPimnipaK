@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/colorPrimary"
     tools:context="com.example.awos.finalproject_jingyuepim.KoreaActivity$PlaceholderFragment">
 
     <TextView
