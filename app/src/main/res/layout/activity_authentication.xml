@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:text="@string/welcome"
         android:layout_gravity="center"
-        android:textSize="24pt"/>
+        android:textSize="24pt"
+        android:layout_margin="10dp"/>
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
@@ -29,6 +30,8 @@
         android:text="@string/sign_in"
         android:layout_gravity="center"
         android:onClick="openMapActivity"
+        android:textColor="@color/colorAccentTwo"
+        android:layout_margin="10dp"
         android:background = "@drawable/roundedbutton"/>
     <TextView
         android:id="@+id/sign_up_text"
@@ -42,6 +45,8 @@
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
         android:layout_gravity="center"
+        android:textColor="@color/colorAccentTwo"
+        android:layout_margin="10dp"
         android:background = "@drawable/roundedbutton"/>
 
 </LinearLayout>

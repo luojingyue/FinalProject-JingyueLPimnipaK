@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="35dp"
             android:text="@string/LQ3A1"
+            android:textColor="@color/colorAccentTwo"
             android:background = "@drawable/roundedbutton"/>
 
         <Button
@@ -37,6 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
             android:text="@string/LQ3A2"
+            android:textColor="@color/colorAccentTwo"
             android:background = "@drawable/roundedbutton"/>
 
     </LinearLayout>

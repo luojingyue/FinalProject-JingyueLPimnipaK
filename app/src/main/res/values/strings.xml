@@ -35,18 +35,26 @@
     <string name="LQ1">What does the name Mashrou3 Leila mean?</string>
     <string name="LQ1A1">An Overnight Project</string>
     <string name="LQ1A2">Leila’s project</string>
+    <string name="LQ1_correct">Both are correct! Mashrou3 Leila is well-known to use wordplay in their lyrics and, apparently, in their band’s name! The “overnight” meaning refers to their beginning as an indie band playing at the members’ alma mater, American University of Beirut. The “Leila” meaning comes from a common Arab name for women. </string>
     <string name="LQ2">What country is Mashrou3 Leila from?</string>
     <string name="LQ2A1">Egypt</string>
     <string name="LQ2A2">Lebanon</string>
+    <string name="LQ2_correct">Egypt and Lebanon are the two biggest exporter of entertainment in Arab region due to the countries’ relative liberal culture in the region. However, our boys  are from Lebanon!
+</string>
     <string name="LQ3">What entertainment company manages Mashrou3 Leila?</string>
     <string name="LQ3A1">None</string>
     <string name="LQ3A2">Incognito</string>
+    <string name="LQ3_correct">Despite their phenomenal success, Mashrou3 Leila is an independent band. The band won a competition in their college years and signed with Incognito record but, after one album together, the band wanted to work more independently and have been releasing three album purely from crowdfunding.
+</string>
     <string name="LQ4">What is Mashrou3 Leila’s first hit “Fasateen” about?</string>
     <string name="LQ4A1">Women empowerment</string>
     <string name="LQ4A2">Poverty</string>
+    <string name="LQ4_correct">Fasateen is about a couple who was in love and promised to be together. However, they cannot afford marriage and the woman changed her mind and left the man. This song reflects reality of limited employment in Arab region and its consequences in society. This is one of the causes of Arab Spring. The band’s songs usually depict current political issue. </string>
     <string name="LQ5">A number of the band’s concert audience was arrested in September 2017, while the band is playing in Egypt. What is the cause?</string>
     <string name="LQ5A1">Waving a rainbow flag</string>
     <string name="LQ5A2">Consuming alcohol</string>
+    <string name="LQ5_correct">With the band’s political theme, they have sparked controversies and targeted many governments’ attention. During one of Mashrou3 Leila’s concert in Egypt, some fans were arrested for waving rainbow flags. Although homosexuality is not illegal in Egypt, showing homosexual acts in public is.</string>
+    
 
     <string name="app_name_TH">ป๊อปแฟค</string>
     <string name="welcome_TH">ยินดีต้อนรับ!</string>

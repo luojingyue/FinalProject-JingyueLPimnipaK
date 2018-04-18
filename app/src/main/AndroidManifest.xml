@@ -34,7 +34,14 @@
             android:label="@string/title_activity_pr"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".KoreanAnswer1Activity"></activity>
+        <activity android:name=".KoreanAnswer1Activity" />
+        <activity android:name=".KoreanAnswer2Activity" />
+        <activity android:name=".LebanonAnswer1Activity" />
+        <activity android:name=".LebanonAnswer2Activity" />
+        <activity android:name=".LebanonAnswer3Activity" />
+        <activity android:name=".PRAnswer1Activity" />
+        <activity android:name=".PRAnswer2Activity" />
+        <activity android:name=".PRAnswer3Activity"></activity>
     </application>
 
 </manifest>
