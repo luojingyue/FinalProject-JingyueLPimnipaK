@@ -29,7 +29,6 @@
         android:layout_height="wrap_content"
         android:text="@string/sign_in"
         android:layout_gravity="center"
-        android:onClick="openMapActivity"
         android:textColor="@color/colorAccentTwo"
         android:layout_margin="10dp"
         android:background = "@drawable/roundedbutton"/>
@@ -44,6 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
+        android:onClick="logIn"
         android:layout_gravity="center"
         android:textColor="@color/colorAccentTwo"
         android:layout_margin="10dp"
