@@ -85,6 +85,19 @@
     <string name="KQ5A1_TH">เจวายพี</string>
     <string name="KQ5A2_TH">บิ๊กฮิต</string>
     <string name="KQ5_correct_TH">อย่าไปสนใจชื่อ! ถึงแม้ชื่อค่ายบิ๊กฮิตจะแปลว่าใหญ่ แต่ที่จริงแล้ว ในวงการบันเทิงเกาหลีค่ายใหญ่มีแค่สามค่าย ได้แก่ เจวายพี เอสเอ็มเอนเตอร์เทนเมนต์ และวายจี บิ๊กฮิตเป็นค่ายเล็กเท่านั้น</string>
+    <string name="LQ1_TH">ชื่อวง Mashrou3 Leila แปลว่าอะไร</string>
+    <string name="LQ1A1_TH">วงข้ามคืน</string>
+    <string name="LQ1A2_TH">วงเลย์ล่า</string>
+    <string name="LQ1_correct_TH">ถูกทั้งคู่! วง Mashrou3 Leila นี้มีชื่อเสียงโด่งดังเรื่องการเล่นคำ ชื่อวงของพวกเขาจึงเป็นการเล่นคำไปด้วย วงข้ามคืนเป็นการกล่าวถึงจุดเริ่มต้นดมื่อพวกเขาเป็นวงในมหาวิทยาลัยที่เล่นในเวลากลางคืนเท่านั้น ชื่อเลย์ล่าเป็นชื่อที่พบเห็นได้ทั่วไปในเลบานอน</string>
+    <string name="LQ2_TH">วง Mashrou3 Leila มาจากประเทศใด</string>
+    <string name="LQ2A_TH">อียิปต์</string>
+    <string name="LQ2A2_TH">เลบานอน</string>
+    <string name="LQ2_correct_TH">ทั้งอียิปต์และเลบานอนเป็นผู้ผลิตสื้อบันเทิงหลักในตะวันออกกลาง แต่วงนี้มาจากเลบานอน</string>
+    <string name="LQ3_TH">วง Mashrou3 Leila สังกัดค่ายใด</string>
+    <string name="LQ3A1_TH">ไม่สังกัด</string>
+    <string name="LQ3A2_TH">อินค็อกนิโต้</string>
+    <string name="LQ3_correct_TH">ถึงแม้จะเป็นวงที่โด่งดัง วง Mashrou3 Leila ไม่สังกัดค่ายใดเลย พวกเขาเซ็นสัญญากับค่ายอินค็อกนิโต้ แต่หลังจากที่มีข้อถกเถียงกันไป พวกเขาก็เริ่มทำเพลงจากการรวมเงินของประชาชนมาได้ 3 อัลบั้มแล้ว</string>
+
 
     <string name="title_activity_korea">KoreaActivity</string>
     <string name="tab_text_1">Tab 1</string>
