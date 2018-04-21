@@ -15,7 +15,7 @@
         android:layout_centerInParent="true"
         android:layout_margin="30dp"
         android:textSize="35dp"
-        android:text="@string/KQ1" />
+        android:text="@string/PRQ1" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -28,18 +28,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="35dp"
-            android:text="@string/KQ1A1"
+            android:text="@string/PRQ1A1"
             android:textColor="@color/colorAccentTwo"
-            android:background = "@drawable/roundedbutton"/>
+            android:background = "@drawable/roundedbutton"
+            android:padding="15dp"/>
 
         <Button
             android:id="@+id/answer2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
-            android:text="@string/KQ1A2"
+            android:text="@string/PRQ1A2"
             android:textColor="@color/colorAccentTwo"
-            android:background = "@drawable/roundedbutton"/>
+            android:background = "@drawable/roundedbutton"
+            android:padding="15dp"/>
 
     </LinearLayout>
 

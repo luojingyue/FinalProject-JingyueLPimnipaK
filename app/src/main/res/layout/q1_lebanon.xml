@@ -30,7 +30,8 @@
             android:layout_marginRight="20dp"
             android:text="@string/LQ1A1"
             android:textColor="@color/colorAccentTwo"
-            android:background = "@drawable/roundedbutton"/>
+            android:background = "@drawable/roundedbutton"
+            android:padding="15dp"/>
 
         <Button
             android:id="@+id/answer2"
@@ -39,7 +40,8 @@
             android:layout_marginLeft="20dp"
             android:text="@string/LQ1A2"
             android:textColor="@color/colorAccentTwo"
-            android:background = "@drawable/roundedbutton"/>
+            android:background = "@drawable/roundedbutton"
+            android:padding="15dp"/>
 
     </LinearLayout>
 
