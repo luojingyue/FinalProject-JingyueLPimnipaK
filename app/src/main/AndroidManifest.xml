@@ -16,9 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".AuthenticationActivity"
-          />
+        <activity android:name=".AuthenticationActivity" />
         <activity
             android:name=".KoreaActivity"
             android:label="@string/title_activity_korea"
@@ -41,7 +39,12 @@
         <activity android:name=".LebanonAnswer3Activity" />
         <activity android:name=".PRAnswer1Activity" />
         <activity android:name=".PRAnswer2Activity" />
-        <activity android:name=".PRAnswer3Activity"></activity>
+        <activity android:name=".PRAnswer3Activity" />
+        <activity android:name=".ReportActivity" />
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

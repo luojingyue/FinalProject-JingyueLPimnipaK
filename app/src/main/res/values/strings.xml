@@ -9,6 +9,10 @@
     <string name="sign_out">Sign Out</string>
     <string name="correct">Correct</string>
     <string name="incorrect">Incorrect</string>
+    <string name="report_name">Please input your name</string>
+    <string name="report_here">Report Here</string>
+    <string name="write_1">Write to cloud</string>
+    <string name="read">Read from cloud</string>
     <string name="KQ1">How many years were BTS band members have been together?</string>
     <string name="KQ1A1">9 years</string>
     <string name="KQ1A2">3 years</string>
@@ -71,6 +75,10 @@
     <string name="sign_out_TH">ออกจากระบบ</string>
     <string name="correct_TH">ถูกต้อง</string>
     <string name="incorrect_TH">ผิด</string>
+    <string name="report_name_TH">ลงชื่อที่นี่</string>
+    <string name="report_here_TH">รายงานที่นี่</string>
+    <string name="write_TH">เขียน</string>
+    <string name="read_TH">อ่าน</string>
     <string name="KQ1_TH">วง BTS ร่วมงานกันมาเป็นเวลานานเท่าไร</string>
     <string name="KQ1A1_TH">9 ปี</string>
     <string name="KQ1A2_TH">3 ปี</string>
@@ -127,5 +135,7 @@
     <string name="title_activity_pr">PRActivity</string>
     <string name="title_activity_korea_information">KoreaInformation</string>
     <string name="title_activity_korean_info">KoreanInfo</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="write_two">Write</string>
 
 </resources>
