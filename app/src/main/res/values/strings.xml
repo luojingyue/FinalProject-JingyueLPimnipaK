@@ -135,5 +135,6 @@
     <string name="title_activity_pr">PRActivity</string>
     <string name="title_activity_korea_information">KoreaInformation</string>
     <string name="title_activity_korean_info">KoreanInfo</string>
+    <string name="title_activity_test">TestActivity</string>
 
 </resources>

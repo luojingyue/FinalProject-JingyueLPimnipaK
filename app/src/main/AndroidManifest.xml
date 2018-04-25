@@ -40,7 +40,11 @@
         <activity android:name=".PRAnswer1Activity" />
         <activity android:name=".PRAnswer2Activity" />
         <activity android:name=".PRAnswer3Activity" />
-        <activity android:name=".ReportActivity"></activity>
+        <activity android:name=".ReportActivity" />
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
