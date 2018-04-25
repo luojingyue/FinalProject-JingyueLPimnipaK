@@ -8,10 +8,15 @@ import android.view.View;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseAuth msAuth;
     private FirebaseAuth.AuthStateListener authListener;
+    private DatabaseReference userRef;
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+
 
 
     @Override
@@ -19,16 +24,20 @@ public class MainActivity extends AppCompatActivity {
         msAuth = FirebaseAuth.getInstance();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        userRef=database.getReference("Hi");
         authListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user == null){
                     startActivity(new Intent(MainActivity.this, AuthenticationActivity.class));
+                }else{
+                    user = msAuth.getCurrentUser();
+                    userRef = database.getReference(user.getUid());
                 }
             }
         };
+
 
     }
 
