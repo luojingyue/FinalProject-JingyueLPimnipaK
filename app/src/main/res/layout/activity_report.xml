@@ -23,11 +23,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/write"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/write"
+            android:text="@string/write_1"
             android:textColor="@android:color/white"
             android:background = "@drawable/roundedbutton"
             android:padding="15dp"

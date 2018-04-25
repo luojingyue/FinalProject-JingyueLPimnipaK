@@ -11,7 +11,7 @@
     <string name="incorrect">Incorrect</string>
     <string name="report_name">Please input your name</string>
     <string name="report_here">Report Here</string>
-    <string name="write">Write to cloud</string>
+    <string name="write_1">Write to cloud</string>
     <string name="read">Read from cloud</string>
     <string name="KQ1">How many years were BTS band members have been together?</string>
     <string name="KQ1A1">9 years</string>
@@ -136,5 +136,6 @@
     <string name="title_activity_korea_information">KoreaInformation</string>
     <string name="title_activity_korean_info">KoreanInfo</string>
     <string name="title_activity_test">TestActivity</string>
+    <string name="write_two">Write</string>
 
 </resources>
