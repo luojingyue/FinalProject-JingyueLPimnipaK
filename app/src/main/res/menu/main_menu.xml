@@ -6,7 +6,14 @@
         android:orderInCategory="100"
         android:title="Log out"
         app:showAsAction="never"
-
         />
+
+    <item
+        android:id="@+id/comment"
+        android:orderInCategory="100"
+        android:title="Your comments"
+        app:showAsAction="never"
+        />
+
 
 </menu>
