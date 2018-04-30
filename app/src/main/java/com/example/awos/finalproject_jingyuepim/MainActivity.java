@@ -26,18 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         userRef = database.getReference("Hi");
-        authListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user == null) {
-                    startActivity(new Intent(MainActivity.this, AuthenticationActivity.class));
-                } else {
-                    user = msAuth.getCurrentUser();
-                    userRef = database.getReference(user.getUid());
-                }
-            }
-        };
+        ;
 
 
     }
@@ -76,9 +65,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(lebaIntent);
     }
 
-    public void logOut(MenuItem item) {
-        msAuth.signOut();
-    }
 }
 
 
