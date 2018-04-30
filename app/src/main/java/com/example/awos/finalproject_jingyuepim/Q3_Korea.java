@@ -19,7 +19,7 @@ public class Q3_Korea extends Fragment {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent info=new Intent(getContext(),KoreanAnswer3Activity.class);
+                Intent info=new Intent(getContext(),PRAnswer2Activity.class);
                 startActivity(info);
             }
         });
