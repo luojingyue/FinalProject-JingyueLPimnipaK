@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -39,6 +40,7 @@ public class AuthenticationActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (!task.isSuccessful()) {
                             Toast.makeText(AuthenticationActivity.this, task.getException().toString(), Toast.LENGTH_SHORT).show();
+                            Log.v("Research",task.getException().toString());
                         } else {
                             Toast.makeText(AuthenticationActivity.this, task.getResult().getUser().getEmail() + " logged in successful",
                                     Toast.LENGTH_SHORT).show();
@@ -58,6 +60,7 @@ public class AuthenticationActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (!task.isSuccessful()) {
                             Toast.makeText(AuthenticationActivity.this, task.getException().toString(), Toast.LENGTH_SHORT).show();
+                            Log.v("Research",task.getException().toString());
                         } else {
                             Toast.makeText(AuthenticationActivity.this, task.getResult().getUser().getEmail() + " signed up successful",
                                     Toast.LENGTH_SHORT).show();
