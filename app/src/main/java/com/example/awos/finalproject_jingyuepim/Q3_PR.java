@@ -18,7 +18,7 @@ public class Q3_PR extends Fragment {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent info=new Intent(getContext(),PRAnswer2Activity.class);
+                Intent info=new Intent(getContext(),PRAnswer3Activity.class);
                 startActivity(info);
             }
         });
