@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -75,6 +76,18 @@ public class MainActivity extends AppCompatActivity {
         Intent lebaIntent = new Intent(this, LebanonActivity.class);
         startActivity(lebaIntent);
     }
+
+    public void openRecyclerView(MenuItem item) {
+        Intent recyclerView = new Intent(this, HiActivity.class);
+        startActivity(recyclerView);
+    }
+
+
+    public void openRecycler(View view) {
+        Intent intent = new Intent(this,HiActivity.class);
+        startActivity(intent);
+    }
+
 
     //public void logOut(MenuItem item) {
     //  msAuth.signOut();

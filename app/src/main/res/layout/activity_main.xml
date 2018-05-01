@@ -6,6 +6,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
+    android:orientation="vertical"
     tools:context="com.example.awos.finalproject_jingyuepim.MainActivity">
 
 <HorizontalScrollView
@@ -35,5 +36,11 @@
 
     </LinearLayout>
 </HorizontalScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open"
+        android:onClick="openRecycler"/>
 
 </LinearLayout>

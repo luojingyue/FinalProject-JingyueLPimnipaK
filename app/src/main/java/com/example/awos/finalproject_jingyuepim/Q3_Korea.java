@@ -1,5 +1,6 @@
 package com.example.awos.finalproject_jingyuepim;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -19,7 +20,7 @@ public class Q3_Korea extends Fragment {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent info=new Intent(getContext(),PRAnswer2Activity.class);
+                Intent info=new Intent(getContext(),LebanonAnswer3Activity.class);
                 startActivity(info);
             }
         });

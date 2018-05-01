@@ -2,18 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/log_out"
+        android:id="@+id/recycler_view"
         android:orderInCategory="100"
-        android:title="Log out"
+        android:title="Recycler View"
+        android:onClick="openRecyclerView"
         app:showAsAction="never"
         />
-
-    <item
-        android:id="@+id/comment"
-        android:orderInCategory="100"
-        android:title="Your comments"
-        app:showAsAction="never"
-        />
-
 
 </menu>
