@@ -63,65 +63,6 @@
     <string name="PRQ3A2">The early \nReggaeton \nmusic was not \nas good</string>
     <string name="PRQ3_correct">Because of provocative lyrics and dancing style, Reggaeton was deemed too edgy for big labels.</string>
 
-    <string name="app_name_TH">ป๊อปแฟค</string>
-    <string name="welcome_TH">ยินดีต้อนรับ!</string>
-    <string name="username_TH">ยูสเซอร์เนม</string>
-    <string name="password_TH">พาสเวิร์ด</string>
-    <string name="sign_up_TH">สมัครเข้าใช้งาน</string>
-    <string name="sign_in_TH">ลงชื่อเข้าใช้งาน</string>
-    <string name="sign_out_TH">ออกจากระบบ</string>
-    <string name="correct_TH">ถูกต้อง</string>
-    <string name="incorrect_TH">ผิด</string>
-    <string name="report_name_TH">ลงชื่อที่นี่</string>
-    <string name="report_here_TH">รายงานที่นี่</string>
-    <string name="write_TH">เขียน</string>
-    <string name="read_TH">อ่าน</string>
-    <string name="KQ1_TH">วง BTS ร่วมงานกันมาเป็นเวลานานเท่าไร</string>
-    <string name="KQ1A1_TH">9 ปี</string>
-    <string name="KQ1A2_TH">3 ปี</string>
-    <string name="KQ1_correct_TH">ถึงแม้ว่าวง BTS จะออกผลงานมาให้เราเห็นกันตั้งแต่ปี 2013 เป็นเวลา 5 ปีแล้ว แต่ในความเป็นจริง พวกเขาร่วมฝึกกันมาก่อนออกผลงานมา 4 ปีแล้ว วงอื่นในวงการบันเทิงเกาหลีก็มีเวลาฝึกฝนเป็นเวลานานเช่นเดียวกัน บางวงใช้เวลาฝึกนานร่วมทศวรรต!</string>
-    <string name="KQ2_TH">วง  BTS มีสมาชิกทั้งหมดกี่คน</string>
-    <string name="KQ2A1_TH">7 คน</string>
-    <string name="KQ2A2_TH">9 คน</string>
-    <string name="KQ2_correct_TH">วงดนตรีเกาหลีแทบจะไม่เคยมีศิลปินเดี่ยว หรือคู่เลย ส่วนใหญ่จะเป็นวงใหญ่ หญิงล้วนหรือชายล้วนเท่านั้น ที่จริงแล้ววง 7 คนไม่ถือว่าใหญ่เลย วง Super Junior มีสมาชิกถึง 13 คน และวง Apeace มีสมาชิก 21 คน</string>
-    <string name="KQ3_TH">สีประจำแฟนคลับของวง BTS คือสีอะไร</string>
-    <string name="KQ3A1_TH">สีเงิน</string>
-    <string name="KQ3A2_TH">สีฟ้า</string>
-    <string name="KQ3_correct_TH">แฟนคลับของวงดนตรีเกาหลีทุกวงมีชื่อและสีเป็นของตนเอง แฟนคลับของวง BTS ชื่อ อาร์มี่ หรือ A.R.M.Y (Adorable Representative MC for Youth) ถ้าอยากรู้อีกละก็ แฟนคลับวง EXO ชื่อ EXO-L สีประจำคือคอสมิคลาเต้ ส่วนแฟนคลับวง 2NE1 ชื่อแบล็คแจ๊ค ใช้สีชมพูแจ๊ดเป็นสีประจำกลุ่ม</string>
-    <string name="KQ4_TH">หัวหน้าวง BTS คือใคร</string>
-    <string name="KQ4A1_TH">แรปมอนสเตอร์</string>
-    <string name="KQ4A2_TH">ซูก้า</string>
-    <string name="KQ4_correct_TH">วงเคป๊อปทุกวงมีหัวหน้าวง ซึ่งโดยทั่วไปแล้วมักจะเป็นสมาชิกที่อายุมากที่สุดของวง หน้าที่อื่นๆของสมาชิก ได้แก่ เสียงหลัก เต้นหลัก หน้าตาดี นักพูด แฟนคลับเยอะที่สุด และเด็กน้อย</string>
-    <string name="KQ5_TH">วง BTS อยู่ภายใต้สังกัดของค่ายใด</string>
-    <string name="KQ5A1_TH">เจวายพี</string>
-    <string name="KQ5A2_TH">บิ๊กฮิต</string>
-    <string name="KQ5_correct_TH">อย่าไปสนใจชื่อ! ถึงแม้ชื่อค่ายบิ๊กฮิตจะแปลว่าใหญ่ แต่ที่จริงแล้ว ในวงการบันเทิงเกาหลีค่ายใหญ่มีแค่สามค่าย ได้แก่ เจวายพี เอสเอ็มเอนเตอร์เทนเมนต์ และวายจี บิ๊กฮิตเป็นค่ายเล็กเท่านั้น</string>
-    <string name="LQ1_TH">ชื่อวง Mashrou3 Leila แปลว่าอะไร</string>
-    <string name="LQ1A1_TH">วงข้ามคืน</string>
-    <string name="LQ1A2_TH">วงเลย์ล่า</string>
-    <string name="LQ1_correct_TH">ถูกทั้งคู่! วง Mashrou3 Leila นี้มีชื่อเสียงโด่งดังเรื่องการเล่นคำ ชื่อวงของพวกเขาจึงเป็นการเล่นคำไปด้วย วงข้ามคืนเป็นการกล่าวถึงจุดเริ่มต้นดมื่อพวกเขาเป็นวงในมหาวิทยาลัยที่เล่นในเวลากลางคืนเท่านั้น ชื่อเลย์ล่าเป็นชื่อที่พบเห็นได้ทั่วไปในเลบานอน</string>
-    <string name="LQ2_TH">วง Mashrou3 Leila มาจากประเทศใด</string>
-    <string name="LQ2A_TH">อียิปต์</string>
-    <string name="LQ2A2_TH">เลบานอน</string>
-    <string name="LQ2_correct_TH">ทั้งอียิปต์และเลบานอนเป็นผู้ผลิตสื้อบันเทิงหลักในตะวันออกกลาง แต่วงนี้มาจากเลบานอน</string>
-    <string name="LQ3_TH">วง Mashrou3 Leila สังกัดค่ายใด</string>
-    <string name="LQ3A1_TH">ไม่สังกัด</string>
-    <string name="LQ3A2_TH">อินค็อกนิโต้</string>
-    <string name="LQ3_correct_TH">ถึงแม้จะเป็นวงที่โด่งดัง วง Mashrou3 Leila ไม่สังกัดค่ายใดเลย พวกเขาเซ็นสัญญากับค่ายอินค็อกนิโต้ แต่หลังจากที่มีข้อถกเถียงกันไป พวกเขาก็เริ่มทำเพลงจากการรวมเงินของประชาชนมาได้ 3 อัลบั้มแล้ว</string>
-    <string name="PRQ1_TH">เพลง “Despacito” ของแดดดี้แยงกี้เกี่ยวกับอะไร</string>
-    <string name="PRQ1A1_TH">ความสนุกในฤดูร้อน</string>
-    <string name="PRQ1A2_TH">ความรัก</string>
-    <string name="PRQ1_correct_TH">คำว่า “Despacito” แปลว่าช้าๆ เพลงนี้จึงเกี่ยวกับการที่นักร้องต้องการพัฒนาความรักครั้งนี้ไปอย่างช้าๆ แต่ความหมายก็ไม่สำคัญเท่าความจริงที่ว่าเพลงนี้เป็นเพลงสไตล์เร็กเกตันเพลงแรกที่ได้ที่ 1 ในบิลบอร์ดชาร์ต</string>
-    <string name="PRQ2_TH">เพลงสไตล์เร็กเกตันมีมานานเท่าไรแล้ว</string>
-    <string name="PRQ2A_TH">ทศวรรต 1960</string>
-    <string name="PRQ2A2_TH">ทศวรรต 1990</string>
-    <string name="PRQ2_correct_TH">เพราะชื่อที่คล้ายคลึงกันอาจทำให้เพลงสไตล์เร็กเกตันถูกจำสลับกับเพลงสไตล์เร็กเกไปบ้าง ที่จริงแล้วเร็กเกตันเกิดในทศวรรตที่ 1990 ในเปอร์โตริโก้ ส่วนเพลงเร็กเก้เกิดในทศวรรต 1960 ในจาไมก้า</string>
-    <string name="PRQ3_TH">เร็กเกตันมีมานานกว่า 20 ปีแล้ว เพราะเหตุใดดนตรีสไตล์นี้ถึงเพิ่งจะมาเป็นที่นิยมในวงกว้าง</string>
-    <string name="PRQ3A1_TH">เพราะเร็กเกตันถูกมองว่าเป็นเพลงใต้ดินมาเป็นเวลานาน</string>
-    <string name="PRQ3A2_TH">เพราะเร็กเกตันช่วงแรกยังไม่เพราะ</string>
-    <string name="PRQ3_correct_TH">ด้วยเนื้อเพลงและท่าเต้นยั่วยวน เพลงสไตล์เร็กเกตันจึงถูกมองว่าเป็นเพลงใตเ้ดินอยู่นาน ส่งผลให้ค่ายเพลงใหญ่ไม่กล้าสนับสนุนเพลงแนวนี้</string>
-
-
     <string name="title_activity_korea">KoreaActivity</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
@@ -134,6 +75,8 @@
     <string name="title_activity_korean_info">KoreanInfo</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="write_two">Write</string>
-
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="LQ3">What entertainment company manages Mashrou3 Leila?</string>
 
 </resources>
