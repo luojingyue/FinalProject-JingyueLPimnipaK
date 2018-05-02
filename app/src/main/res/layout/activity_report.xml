@@ -16,7 +16,7 @@
         android:id="@+id/report_here"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/report_here"/>
+        android:hint="Your comment of our app"/>
 
     <LinearLayout
         android:layout_margin="20dp"
@@ -28,19 +28,25 @@
             android:id="@+id/write"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/write_1"
+            android:text="Upload your comment"
             android:textColor="@android:color/white"
             android:background = "@drawable/roundedbutton"
             android:padding="15dp"
+            android:onClick="uploadComment"
             android:layout_marginRight="20dp"/>
+
         <Button
             android:id="@+id/read"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/read"
+            android:text="Read from cloud"
             android:textColor="@android:color/white"
             android:background = "@drawable/roundedbutton"
-            android:padding="15dp"/>
+            android:padding="15dp"
+            android:onClick="readComment"
+            android:layout_marginRight="20dp"/>
+
+
     </LinearLayout>
 
 </LinearLayout>

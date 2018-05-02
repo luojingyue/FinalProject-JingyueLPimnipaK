@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        };
 
+        // Write a message to the database
 
     }
 
@@ -85,6 +86,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openRecycler(View view) {
         Intent intent = new Intent(this,HiActivity.class);
+        startActivity(intent);
+    }
+
+    public void openReportActivity(MenuItem item) {
+        Intent intent = new Intent(this,ReportActivity.class);
         startActivity(intent);
     }
 

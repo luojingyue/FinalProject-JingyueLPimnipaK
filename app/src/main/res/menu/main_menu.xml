@@ -9,4 +9,13 @@
         app:showAsAction="never"
         />
 
+    <item
+        android:id="@+id/comment_view"
+        android:orderInCategory="100"
+        android:title="Give us your comment"
+        android:onClick="openReportActivity"
+        app:showAsAction="never"
+        />
+
+
 </menu>
